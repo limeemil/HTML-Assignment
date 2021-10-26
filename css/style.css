@@ -1,0 +1,56 @@
+* {
+    font-family: Arial;
+}
+
+html {
+    width: 1024px;
+    position: relative;
+    margin: auto;
+    background: chocolate;
+    border: 3px solid black;
+}
+
+header {
+    position: relative;
+    float: left;
+    top: 0;
+    height: 100px;
+    width: 1000px;
+    border: 3px solid black;
+    background: lightcoral;
+}
+
+.main_header {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border: 3px solid black;
+    background: lightseagreen;
+}
+
+ul.links {
+    position: absolute;
+    left: 28.5%;
+    bottom: 0;
+    border: 3px solid black;
+}
+
+#login {
+    position: absolute;
+    right: 0;
+    background: lime;
+    border: 3px solid black;
+}
+
+aside {
+    position: absolute;
+    right: 0;
+    top: 19%;
+    background: lime;
+    border: 3px solid black;
+}
+
