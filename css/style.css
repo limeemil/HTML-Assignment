@@ -14,13 +14,24 @@ header {
     position: relative;
     top: 0;
     height: 100px;
-    width: 993px;
+    width: 997px;
     display: flex;
     justify-content: flex-start;
     border: 3px solid black;
     background: lightcoral;
 }
 
+.loginheader {
+    position: relative;
+    top: 0;
+    height: 100px;
+    width: 997px;
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid black;
+    background: lightcoral;
+    text-transform: uppercase;
+}
 
 .main_header {
     position: relative;
@@ -51,7 +62,9 @@ ul.links {
     row-gap: 50px;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    /*padding: 40px;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0px;
     border: 3px solid black;
 }
@@ -60,13 +73,23 @@ ul.links {
     padding-right: 98px;
 }
 
-.page {
+.pageI {
+    position: relative;
+    right: 0;
+    background: lime;
+    text-align: center;
+    padding: 39.85px;
+    margin-left: 79px;
+    border: 3px solid black;
+}
+
+.pageL {
     position: relative;
     right: 0;
     background: lime;
     text-align: center;
     padding: 40px;
-    margin-left: 30px;
+    margin-left: 18px;
     border: 3px solid black;
 }
 
@@ -105,5 +128,22 @@ aside {
 form {
     position: relative;
     text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 3px solid black;
+    background: cyan;
 }
 
+#reset {
+    border-radius: 25px;
+    background: red;
+    color: white;
+}
+
+#submit {
+    border-radius: 25px;
+    background: darkgreen;
+    color: white;
+}
